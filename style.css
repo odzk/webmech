@@ -40,18 +40,21 @@ ol.comment-list li{ list-style:none; margin-bottom:5px;}
 .container{ width:1100px; margin:0 auto; position:relative;}
 #pageholder{ width:100%; margin:0 auto;}
 /*header menu css*/
+@media only screen and (min-width: 600px) {
+	.sitenav { height: 60px; }
+}
 .toggle{display: block;}
 .toggle a{width:100%; color:#ffffff; background:url(images/mobile_nav_right.png) no-repeat right center #3e3e3e; padding:10px 10px; margin-top:5px; font-size:16px; display:none;}
 .toggle a:hover{color:#ffffff !important;}
 .header{width:100%; z-index:999; top:auto; box-shadow:0 1px 3px #ddd; }
-.sitenav{ padding:0; text-align:right; float:right;}
+.sitenav{ padding:0; text-align:right; float:right; }
 .sitenav ul { float:right; margin:0; padding:0; font-family:'Montserrat', sans-serif; font-weight:400; font-size:12px; text-transform:uppercase;}
 .sitenav ul li{ display:inline-block; margin:0; position:relative; text-align:center;}
 .sitenav ul li a{ padding:28px 20px; display:block; color:#111; }
 .sitenav ul li ul li{display:block; position:relative; float:none; }
 .sitenav ul li ul li a{display:block; padding-top:10px; padding-bottom:10px; position:relative; text-align:left; border-bottom:1px solid #eee;  }
 .sitenav ul li ul li a:hover, .sitenav ul li ul.sub-menu li.current_page_item a{border-radius:0; }
-.sitenav ul li a:hover, .sitenav ul li.current_page_item a, .sitenav ul li.current-menu-ancestor a.parent{ background-color:#e15e26; color:#fff; }
+.sitenav ul li a:hover, .sitenav ul li.current_page_item a, .sitenav ul li.current-menu-ancestor a.parent{ background-color:#e15e26; color:#fff; padding-top: 10px; padding-bottom: 10px; }
 .sitenav ul li ul{display:none; z-index:9999; position:relative;}
 .sitenav ul li:hover > ul{display:block; width:200px; position:absolute; left:0; text-align:left; background-color:#fff;  box-shadow:0 2px 2px #000; }
 .sitenav ul li:hover ul li ul{display:none; position:relative;}
