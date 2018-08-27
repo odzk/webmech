@@ -27,6 +27,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -39,6 +41,14 @@
                         <span><?php bloginfo('description'); ?></span>
             </div><!-- logo -->
              <div class="hdrright">
+            <!-- Contact Us -->
+            <div class="contact_us hidden-xs">
+            <p style="font-weight: bold;">Contact Us:</p>
+            <p><i class="fa fa-mobile"></i> (Globe): <a href="tel:09177725544">0917 772 5544</a></p>
+            <p><i class="fa fa-mobile"></i> (Smart): <a href="tel:09280590606">0928 059 0606</a></p>
+            <p><i class="fa fa-envelope"></i> Email: <a href="mailto:ody@web-mech">ody@web-mech.net</a></p>
+            <!-- <p>Follow Us: <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i class="fa fa-instagram"></i></p> -->
+            </div>
              <div class="toggle">
                 <a class="toggleMenu" href="#"><?php _e('Menu','study-circle'); ?></a>
              </div><!-- toggle --> 

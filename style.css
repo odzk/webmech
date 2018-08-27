@@ -1,19 +1,7 @@
 /*
-Theme Name: Study Circle
-Theme URI: https://gracethemes.com/themes/free-education-wordpress-theme/
-Author: Grace Themes
-Author URI: https://gracethemes.com/
-Description: Study Circle is a free Education WordPress theme. It is perfect for school, college, tution classes, coaching classes, personal, bloging and any small business. It is user friendly customizer options and Compatible in wordPress Latest Version. also Compatible with WooCommerce, Nextgen gallery ,Contact Form 7 and many WordPress popular plugins. Demo Link: https://gracethemes.com/demo/studycircle/
-
-Version: 1.7.0
-License: GNU General Public License v3.0
-License URI: http://www.gnu.org/licenses/gpl.html
-Text Domain: study-circle
-Tags:blog,two-columns,custom-colors,right-sidebar,custom-logo,full-width-template,footer-widgets,custom-header,featured-images,editor-style,custom-background,custom-menu,sticky-post,threaded-comments,theme-options, translation-ready
-
-Study Circle WordPress Theme has been created by Grace Themes(gracethemes.com), 2016.
-Study Circle WordPress Theme is released under the terms of GNU GPL
+Theme Name: Modified Study Circle for Web Mech
 */
+
 body{ background-color:#fff; margin:0; padding:0;line-height:20px; font-size:13px; color:#5c5c5c; font-family:'Montserrat', sans-serif;  -ms-word-wrap:break-word; word-wrap:break-word; }
 *{ margin:0; padding:0; outline:none;}
 img{ border:none; margin:0; padding:0; height:auto; max-width:100%;}
@@ -213,3 +201,8 @@ body.wp-custom-logo .logo h1{display:none;}
 #sidebar select{ width:100%; height:30px;}
 .textwidget select{ width:100%; height:30px;}
 table{ width:100%}
+
+.contact_us {
+	width: 300px;
+	float:right;
+}
