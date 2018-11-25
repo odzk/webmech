@@ -47,7 +47,7 @@
             <p><i class="fa fa-mobile"></i> (Globe): <a href="tel:09177725544">0917 772 5544</a></p>
             <p><i class="fa fa-mobile"></i> (Smart): <a href="tel:09280590606">0928 059 0606</a></p>
             <p><i class="fa fa-envelope"></i> Email: <a href="mailto:ody@web-mech">ody@web-mech.net</a></p>
-            <!-- <p>Follow Us: <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i class="fa fa-instagram"></i></p> -->
+            <!-- n<p>Follow Us: <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i class="fa fa-instagram"></i></p> -->
             </div>
              <div class="toggle">
                 <a class="toggleMenu" href="#"><?php _e('Menu','study-circle'); ?></a>
