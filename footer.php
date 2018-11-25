@@ -27,7 +27,7 @@
         <div class="copyright-wrapper">
         	<div class="container">            	
                 <div class="powerby">
-				<a href="<?php echo esc_url( __( 'http://www.web-mech.net/', 'Web-Mechanics' ) ); ?>"><?php printf( __( 'Copyright 2017 &copy; Web Mechanics. All Rights Reserved.', 'Web-Mechanics' ), 'Web Mechanics' ); ?></a>
+				<a href="<?php echo esc_url( __( 'http://www.web-mech.net/', 'Web-Mechanics' ) ); ?>"><?php printf( __( 'Copyright 2014-2018 &copy; Web Mechanics. All Rights Reserved.', 'Web-Mechanics' ), 'Web Mechanics' ); ?></a>
                 </div>
             </div>
             <div class="clear"></div>
