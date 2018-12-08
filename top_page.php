@@ -39,7 +39,7 @@ get_header(); ?>
             </div>
 
             <div class="text-center">
-            <a class="btn btn-info" href="#">See More of Our Projects!</a>
+            <a class="btn btn-info" href="/projects">See More of Our Projects!</a>
             </div>
 
             <hr>
